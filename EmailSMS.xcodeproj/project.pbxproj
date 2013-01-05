@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A004D471603758D00AF0B14 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D461603758D00AF0B14 /* Twitter.framework */; };
 		6A14CCD21602091A001FB60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CCD11602091A001FB60E /* UIKit.framework */; };
 		6A14CCD41602091A001FB60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CCD31602091A001FB60E /* Foundation.framework */; };
 		6A14CCD61602091A001FB60E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CCD51602091A001FB60E /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 		6A14CCF21602091A001FB60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CCD31602091A001FB60E /* Foundation.framework */; };
 		6A14CCFA1602091A001FB60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A14CCF81602091A001FB60E /* InfoPlist.strings */; };
 		6A14CCFD1602091A001FB60E /* EmailSMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A14CCFC1602091A001FB60E /* EmailSMSTests.m */; };
+		6A14CD0716020A83001FB60E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CD0616020A83001FB60E /* MessageUI.framework */; };
+		6A14CD0D160214DD001FB60E /* Accept-Male-User256.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A14CD0C160214DD001FB60E /* Accept-Male-User256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A004D461603758D00AF0B14 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		6A14CCCD1602091A001FB60E /* EmailSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A14CCD11602091A001FB60E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A14CCD31602091A001FB60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +56,8 @@
 		6A14CCF91602091A001FB60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A14CCFB1602091A001FB60E /* EmailSMSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailSMSTests.h; sourceTree = "<group>"; };
 		6A14CCFC1602091A001FB60E /* EmailSMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailSMSTests.m; sourceTree = "<group>"; };
+		6A14CD0616020A83001FB60E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6A14CD0C160214DD001FB60E /* Accept-Male-User256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Accept-Male-User256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A004D471603758D00AF0B14 /* Twitter.framework in Frameworks */,
+				6A14CD0716020A83001FB60E /* MessageUI.framework in Frameworks */,
 				6A14CCD21602091A001FB60E /* UIKit.framework in Frameworks */,
 				6A14CCD41602091A001FB60E /* Foundation.framework in Frameworks */,
 				6A14CCD61602091A001FB60E /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +89,9 @@
 		6A14CCC216020919001FB60E = {
 			isa = PBXGroup;
 			children = (
+				6A004D461603758D00AF0B14 /* Twitter.framework */,
+				6A14CD0616020A83001FB60E /* MessageUI.framework */,
+				6A14CD101602152C001FB60E /* imagens */,
 				6A14CCD71602091A001FB60E /* EmailSMS */,
 				6A14CCF51602091A001FB60E /* EmailSMSTests */,
 				6A14CCD01602091A001FB60E /* Frameworks */,
@@ -149,6 +160,15 @@
 				6A14CCF81602091A001FB60E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A14CD101602152C001FB60E /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				6A14CD0C160214DD001FB60E /* Accept-Male-User256.png */,
+			);
+			name = imagens;
+			path = EmailSMS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +245,7 @@
 			files = (
 				6A14CCDC1602091A001FB60E /* InfoPlist.strings in Resources */,
 				6A14CCE51602091A001FB60E /* MainStoryboard.storyboard in Resources */,
+				6A14CD0D160214DD001FB60E /* Accept-Male-User256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +456,7 @@
 				6A14CD021602091A001FB60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A14CD031602091A001FB60E /* Build configuration list for PBXNativeTarget "EmailSMSTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +465,7 @@
 				6A14CD051602091A001FB60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <Twitter/Twitter.h>
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
+
+@property (nonatomic, weak) IBOutlet UITextView *campoMensagem;
+@property (nonatomic, weak) IBOutlet UITextField *campoDestino;
+
+-(IBAction)cliqueSMS:(id)sender;
+-(IBAction)cliqueEmail:(id)sender;
+-(IBAction)cliqueTwitter:(id)sender;
 
 @end
